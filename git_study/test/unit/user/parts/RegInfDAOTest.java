@@ -42,7 +42,6 @@ public class RegInfDAOTest {
 		    ic.createSubcontext("java:comp");
 		    ic.createSubcontext("java:comp/env");
 		    ic.createSubcontext("java:comp/env/jdbc");
-		    //ic.createSubcontext("java:comp/env/jdbc/task");
 		    
 		    MysqlDataSource ds = new MysqlDataSource();
 		    ds.setUser("root");
